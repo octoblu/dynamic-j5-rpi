@@ -115,7 +115,7 @@ conn.on("notReady", function(data) {
 
   // Register a device
   conn.register({
-    "type": "edison"
+    "type": "raspberrypi"
   }, function(data) {
     debug('registered device', data);
     meshbluJSON.uuid = data.uuid;
